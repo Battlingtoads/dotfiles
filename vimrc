@@ -44,6 +44,7 @@ Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/timestamp.vim'
 Bundle 'jplaut/vim-arduino-ino'
+Bundle 'rbgrouleff/bclose.vim'
 
 
 filetype plugin indent on
@@ -71,6 +72,7 @@ let mapleader=' '
 nnoremap <Leader>l :ls<CR>
 nnoremap <Leader>b :bp<CR>
 nnoremap <Leader>f :bn<CR>
+nnoremap <Leader>c :Bclose<CR>
 
 set hidden
 
