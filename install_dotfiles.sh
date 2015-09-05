@@ -31,3 +31,7 @@ mv ~/.$file ~/dotfiles_old/
 echo "Creating symlink to $file in home directory."
 ln -s $dir/$file ~/.$file
 done
+
+#clone vundle
+echo "Cloning vundle from github"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
