@@ -10,7 +10,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc vimrc gitconfig"    # list of files/folders to symlink in homedir
+files="bashrc vimrc gitconfig ycm_extra_conf.py"    # list of files/folders to symlink in homedir
 
 ##########
 
