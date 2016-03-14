@@ -45,7 +45,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'jplaut/vim-arduino-ino'
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'valloric/youcompleteme'
 Bundle 'vim-scripts/timestamp.vim'
@@ -109,3 +110,6 @@ let g:jedi#use_tabs_not_buffer = 0
 "nerdtree
 au VimEnter * NERDTree
 let g:NERDTreeWinPos = "right"
+
+"ROS
+au BufRead,BufNewFile *.launch set filetype=xml

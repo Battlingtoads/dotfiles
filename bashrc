@@ -4,3 +4,5 @@ export PATH=/global/torch_env/torch/install/bin:$PATH
 export LD_LIBRARY_PATH=/global/torch_env/torch/install/lib:$LD_LIBRARY_PATH
 export DYLD_LIBRARY_PATH=/global/torch_env/torch/install/lib:$DYLD_LIBRARY_PATH
 export PYTHONPATH=$PYTHONPATH:/global/dist-packages
+source /opt/ros/indigo/setup.bash
+source /opt/ros/indigo/setup.bash
